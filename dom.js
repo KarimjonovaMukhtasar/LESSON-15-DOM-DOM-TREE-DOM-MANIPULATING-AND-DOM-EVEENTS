@@ -13,9 +13,13 @@ const email = document.querySelector("#emaill")
 const pswrd = document.querySelector("#passwordd")
 const formm = document.querySelector("#formm")
 
-let database = [{ username: "MK", email: "mk@gmail.com", password: "Abc123456" }]
+let database = [{ username: "MK", email: "mk@gmail.com", password: "Abc123456" }, 
+        {username: "Qwerty", email: "qwerty@gmail.com", password: "Qwerty123"},
+        {username: "Somebody", email: "smby@gmail.com", password: "Something12"},
+       {username: "User", email: "user@gmail.com", password: "Tester123"},
+        {username: "Ultra", email: "ultra@gmail.com", password: "Ultra123"}
+]
 console.log(database);
-
 if (form) {
     form.addEventListener("submit", (e) => {
         let checkemail = false
